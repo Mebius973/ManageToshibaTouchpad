@@ -1,0 +1,2 @@
+id=$( xinput list | sed -E -n 's/(.*[Tt][Oo][Uu][Cc][Hh][Pp][Aa][Dd]).*id=(\S+).*[*.[Pp][Oo][Ii][Nn][Tt][Ee][Rr].*]/\2/p' )
+xinput set-prop $id "Device Enabled" 1
