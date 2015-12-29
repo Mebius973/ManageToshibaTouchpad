@@ -4,4 +4,4 @@ chmod +x $DIR/scripts/*touchpad
 export PATH="$DIR/scripts:$PATH"
 echo "" >> $HOME/.profile
 echo "# Add touchpad management scripts to path" >> $HOME/.profile
-echo 'PATH = "$DIR/scripts:$PATH"' >> $HOME/.profile
+echo "PATH=\"$DIR/scripts:\$PATH\"" >> $HOME/.profile
